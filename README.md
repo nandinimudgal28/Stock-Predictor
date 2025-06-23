@@ -90,25 +90,10 @@ Plots actual vs predicted close price with evaluation table.
 - `pandas`, `numpy` – Data manipulation  
 - `matplotlib`, `seaborn` – Visualizations  
 - `sklearn` – Machine learning models  
-- `xgboost` – Boosted trees  
-- `streamlit` – Interactive dashboard  
+- `xgboost` – Boosted trees    
 
 ---
 
-##  How to Run
-
-1. Clone the repo  
-2. Install dependencies  
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Launch dashboard  
-   ```bash
-   streamlit run dashboard.py
-   ```
-4. Or run scripts manually via Jupyter Notebook / Python scripts
-
----
 
 ##  Highlights
 
