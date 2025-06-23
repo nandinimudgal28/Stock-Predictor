@@ -1,23 +1,22 @@
 # Stock-Predictor
-# 📊 ADANIPORTS Stock Analysis and Prediction Dashboard
 
 This project is an end-to-end machine learning and data analysis pipeline for predicting stock prices using historical data from **ADANIPORTS**. It covers exploratory data analysis, technical indicators, ML model training, backtesting strategies for visualization and experimentation.
 
 ---
 
-## 🧾 Contents
+##  Contents
 
-- 📈 Data Preprocessing & Feature Engineering  
-- 🧠 Machine Learning Models  
-- 📊 Technical Indicators (RSI, MACD, SMA, EMA)  
-- 🔁 Backtesting Strategy  
-- 🖥️ Interactive Streamlit Dashboard  
-- 🔍 Random Year Prediction  
-- 📦 Tools & Libraries  
+-  Data Preprocessing & Feature Engineering  
+-  Machine Learning Models  
+-  Technical Indicators (RSI, MACD, SMA, EMA)  
+-  Backtesting Strategy  
+-  Interactive Streamlit Dashboard  
+-  Random Year Prediction  
+-  Tools & Libraries  
 
 ---
 
-## 📥 Dataset
+##  Dataset
 
 - CSV File: `ADANIPORTS (1).csv`
 - Columns: Date	Symbol	Series	Prev Close	Open	High	Low	Last	Close	VWAP	Volume	Turnover	Trades	Deliverable Volume	%Deliverble
@@ -25,7 +24,7 @@ This project is an end-to-end machine learning and data analysis pipeline for pr
 
 ---
 
-## 📊 Feature Engineering
+##  Feature Engineering
 
 - **SMA (Simple Moving Average)** – 20-day average to smooth volatility.
 - **EMA (Exponential Moving Average)** – 20-day exponentially weighted average.
@@ -36,31 +35,31 @@ This project is an end-to-end machine learning and data analysis pipeline for pr
 
 ---
 
-## 🧠 Machine Learning Models Used
+##  Machine Learning Models Used
 
 | Model Type          | Description                              |
 |---------------------|------------------------------------------|
-| 📉 Linear Regression | Baseline model for trend prediction      |
-| 🌲 Random Forest     | Tree-based ensemble for classification   |
-| ⚡ XGBoost           | Gradient-boosted trees for regression    |
-| 🔍 Signal Strategy   | Rule-based signal generation for trading |
+|  Linear Regression | Baseline model for trend prediction      |
+|  Random Forest     | Tree-based ensemble for classification   |
+|  XGBoost           | Gradient-boosted trees for regression    |
+|  Signal Strategy   | Rule-based signal generation for trading |
 
 ---
 
-## 🔁 Backtesting Strategy
+##  Backtesting Strategy
 
 A rule-based portfolio strategy was implemented:
 
 - **Buy**: If price expected to go up > 1%
 - **Sell**: If price expected to fall > 1%
 - Portfolio is updated iteratively, tracking:
-  - 📈 Portfolio Value Over Time  
-  - 📊 Total Return  
-  - 🧮 Sharpe Ratio
+  -  Portfolio Value Over Time  
+  -  Total Return  
+  -  Sharpe Ratio
 
 ---
 
-## 🔍 Random Year Price Prediction
+##  Random Year Price Prediction
 
 - Predict closing prices for a **randomly selected year** using Linear Regression.
 - Train on all previous years.
@@ -76,7 +75,7 @@ Plots actual vs predicted close price with evaluation table.
 
 ---
 
-## 📈 Visualizations
+##  Visualizations
 
 - Correlation Heatmaps
 - RSI and MACD Charts
@@ -86,7 +85,7 @@ Plots actual vs predicted close price with evaluation table.
 
 ---
 
-## 🛠️ Libraries Used
+##  Libraries Used
 
 - `pandas`, `numpy` – Data manipulation  
 - `matplotlib`, `seaborn` – Visualizations  
@@ -96,7 +95,7 @@ Plots actual vs predicted close price with evaluation table.
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 1. Clone the repo  
 2. Install dependencies  
@@ -111,13 +110,13 @@ Plots actual vs predicted close price with evaluation table.
 
 ---
 
-## ✅ Highlights
+##  Highlights
 
-- 📊 **Dynamic stock prediction for a selected year**
-- 🧠 **ML-powered trading signals**
-- 📈 **Interactive UI for stock exploration**
-- 🧪 **Backtest strategy simulation with portfolio performance**
-- 📚 **Modular, extensible, and beginner-friendly codebase**
+-  **Dynamic stock prediction for a selected year**
+-  **ML-powered trading signals**
+-  **Interactive UI for stock exploration**
+-  **Backtest strategy simulation with portfolio performance**
+-  **Modular, extensible, and beginner-friendly codebase**
 
 ---
 
