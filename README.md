@@ -120,7 +120,7 @@ Plots actual vs predicted close price with evaluation table.
 
 ---
 
-## 📌 To-Do (Future Work)
+##  To-Do (Future Work)
 
 - Add LSTM and Attention-based models
 - Integrate real-time prediction with Yahoo Finance API
